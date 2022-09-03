@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: sans-serif;
+    line-height: 1.7em;
+    width: 100%;
+    min-height: 100vh;
+    font-size: 45px;
+}
+
+.container {
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: center;
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+    }
+    .box {
+        text-align: center;
+    }
+}
+
+.box {
+    display: flex;
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid black;
+}
