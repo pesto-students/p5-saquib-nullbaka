@@ -1,0 +1,15 @@
+{
+  "name": "learnflexbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "test": "test"
+  },
+  "author": "Uttaran Wary",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
